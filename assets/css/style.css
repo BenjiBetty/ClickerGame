@@ -16,20 +16,28 @@ h1 {
     margin: 0px 500px;
 }
 
-div {
-    color: white;
-    text-align: center;
-}
-
-section img {
-    max-width: 30%;
-}
-
 #bouton {
-    max-width: 15%;
-    margin: 50px 0px;
+    max-width: 10%;
 }
 
 #multiplier {
     max-width: 3%;
+}
+
+.jeu {
+    color: white;
+    font-family: 'Orbitron', Geneva, Tahoma, sans-serif;
+}
+
+p {
+    margin-top: 0px;
+}
+
+.clicker {
+    margin-top: 50px;
+    font-size: 1.5em;
+}
+
+.booster {
+    margin-top: 50px;
 }
