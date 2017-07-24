@@ -19,9 +19,11 @@ function add() {
 /* fonction pour multiplier */
 function augmenterMultiplicateur() {
     if (score >= multiplicateurCost) {
+
         multiplicateur = multiplicateur + 1;
         score = score - multiplicateurCost;
         multiplicateurCost = multiplicateurCost * 2;
+
         document.getElementById("compteur").innerHTML = "Multiplicateur x" + multiplicateur;
         document.getElementById("affichage").innerHTML = score;
         document.getElementById("prix").innerHTML = "&#8593; contre " + multiplicateurCost + " km";
@@ -31,6 +33,7 @@ function augmenterMultiplicateur() {
 function autoClick() {
     if (score >= autoClickerCost) {
 
+        document.getElementById("autoClick")
         document.getElementById("prixRickClick").innerHTML = "&#8593; contre " + autoClickerCost;
     }
 
