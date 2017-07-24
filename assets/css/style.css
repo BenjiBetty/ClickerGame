@@ -21,24 +21,35 @@ h1 {
 
 #multiplier {
     max-width: 15%;
+    margin-top: -20px;
+}
+
+#bonus {
+    max-width: 21%;
+    margin-top: 15px;
+}
+
+#summerClick {
+    margin-top: -15px;
 }
 
 #prix,
-#prixRickClick {
+#prixSummer,
+#autoclick {
     color: green;
     font-weight: bold;
 }
 
 #autoClick {
     max-width: 30%;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .jeu {
     color: white;
     font-family: 'Orbitron', Geneva, Tahoma, sans-serif;
     display: flex;
-    height: 500px;
+    height: 550px;
     text-align: center;
 }
 

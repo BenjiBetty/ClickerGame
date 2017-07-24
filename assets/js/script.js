@@ -5,7 +5,7 @@ var affichage = document.getElementById("affichage");
 var multiplicateur = 1;
 var multiplier = document.getElementById("multiplier");
 var multiplicateurCost = 50;
-var autoClickerCost = 200;
+var autoClickerCost = 500;
 var autoClicker = 1;
 
 
@@ -33,8 +33,19 @@ function augmenterMultiplicateur() {
 function autoClick() {
     if (score >= autoClickerCost) {
 
-        document.getElementById("autoClick")
-        document.getElementById("prixRickClick").innerHTML = "&#8593; contre " + autoClickerCost;
+        setInterval(function() {
+            document.getElementById("bouton").click();
+        }, 1000);
+
+        document.getElementById("autoClick").disabled = true;
+        document.getElementById("autoclick").innerHTML = "Activé";
     }
+
+}
+
+function bonus() {
+
+
+    document.getElementById("prixSummer").innerHTML = "Oups, ceci est un troll...";
 
 }
